@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang= 'pt-BR'>
+    <head>
+        <title> Meu sitezinho! </title>
+        <link
+        rel="stylesheet"
+        href="styles.css"
+      />
+    </head>
+
+    <body>
+        <h1> Meu sitezãoo </h1>
+        <h2>Site da Ana Carolina.</h2>
+
+        <div>
+            <h3>Listas</h3>
+            <p>Coisas que gosto</p>
+            <ul>
+                <li>Pedro Augusto Soares</li>
+                <li>Dell</li>
+            </ul>
+        </div>
+
+        <div class="teste">
+            <h2>
+                Keroppi
+            </h2>
+            <h1>
+                Keroppi
+            </h1>
+        </div>
+
+        <div>
+            <span id="contador">0</span>
+            <button onclick="incrementar(1)">Incrementar</button>
+            
+        </div>
+        <!-- on = evento, quero fazer algo quando interagir -->
+
+        <!-- aqui é js -->
+        <!-- let variavel = 0; const constante = ... -->
+        <script>
+            let count = 0
+
+            const span = document.getElementById("contador")            
+            span.innerText = "oi"
+
+            let asd = "oi"
+            function incrementar(valor) {
+                count += valor
+                span.innerText = count
+            }
+
+        </script>
+
+    </body>
+</html>

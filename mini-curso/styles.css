@@ -1,0 +1,16 @@
+
+body {
+    background-color: pink;
+}
+h1{
+    color: white;
+}
+div { 
+    background-color: rgb(236, 79, 79);
+    color: white;
+}
+
+.teste{
+    background-color: aquamarine;
+    color: purple;
+}
